@@ -1,10 +1,13 @@
+#Il est conseillé, pour la comprehension de l'utilité de chaque fonction, de lire en parallèle le fichier descriptif_code_TIPE.pdf
+
+
 import networkx as nx
 import random as rd
 import matplotlib.pyplot as plt
 import math
 
             ##                       ##
-            ## PARTIE CHEMINs CONNUS ##
+            ## PARTIE CHEMINS CONNUS ##
             ##                       ##
 
 ## PARTIE DESSIN
@@ -231,9 +234,9 @@ def resultat_interception_connu(nbEssais):
         plt.plot(x,dijkstra)
     plt.show()
 
-            ##                        ##
-            ## PARTIE CHEMIN INCONNUS ##
-            ##                        ##
+            ##                         ##
+            ## PARTIE CHEMINS INCONNUS ##
+            ##                         ##
 
 ##PARTIE DESSIN
 def racinesNieme(n):
